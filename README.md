@@ -16,9 +16,11 @@ I work across architecture and implementation: defining the problem, choosing th
 
 ## Selected projects
 
-These projects are part of my private portfolio. Public code and demo walkthroughs are not available here yet.
+DataTalk has a public repository linked below. The other projects remain part of my private portfolio, with no public code or demo walkthroughs linked here yet.
 
 ### DataTalk - Natural-language analytics for Oracle
+
+[Public repository](https://github.com/hsieihsuan1/enterprise-nl2sql-assistant)
 
 A demo that lets business users ask questions about sales data and see SQL, results, charts, and explanations in a Streamlit interface.
 
@@ -128,9 +130,11 @@ Atuo da arquitetura à implementação: definir o problema, escolher a abordagem
 
 ## Projetos selecionados
 
-Os projetos abaixo fazem parte do meu portfólio privado. O código público e os roteiros de demonstração ainda não estão disponíveis aqui.
+O DataTalk tem um repositório público indicado abaixo. Os demais projetos continuam no meu portfólio privado, sem código público ou roteiros de demonstração vinculados aqui por enquanto.
 
 ### DataTalk - Analytics em linguagem natural para Oracle
+
+[Repositório público](https://github.com/hsieihsuan1/enterprise-nl2sql-assistant)
 
 Demo para fazer perguntas sobre dados de vendas e visualizar SQL, resultados, gráficos e explicações em uma interface Streamlit. Integra Oracle Autonomous Database e oferece um dataset mock local para demonstração.
 
