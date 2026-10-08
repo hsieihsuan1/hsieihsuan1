@@ -16,7 +16,7 @@ I work across architecture and implementation: defining the problem, choosing th
 
 ## Selected projects
 
-DataTalk, ERP Support Extension and JD Edwards Integration Suite have public repositories linked below. The other projects remain part of my private portfolio, with no public code or demo walkthroughs linked here yet.
+DataTalk, ERP Support Extension, JD Edwards Integration Suite, AI Solution Builder, AI Financial Manager and AI Leisure Planner have public repositories linked below. The other projects remain part of my private portfolio, with no public code or demo walkthroughs linked here yet.
 
 ### DataTalk - Natural-language analytics for Oracle
 
@@ -76,6 +76,10 @@ Two demonstrations built around JD Edwards Orchestrator: a multichannel stock-av
 
 ### AI Solution Builder - From business problem to solution blueprint
 
+[Public repository](https://github.com/hsieihsuan1/ai-solution-builder)
+
+The public repository is a local template-only MVP with synthetic data, no AI model, authentication or billing. The full project description below refers to the private original.
+
 An MVP workspace that turns business and functional requirements into editable solution artifacts: technical specifications, implementation approach, security considerations, test strategy, deployment planning, metrics, and improvement plans.
 
 - Guided requirements capture and editable AI-generated sections.
@@ -88,6 +92,10 @@ An MVP workspace that turns business and functional requirements into editable s
 
 ### AI Financial Manager - Conversational expense tracking
 
+[Public repository](https://github.com/hsieihsuan1/despesas-bot-demo)
+
+The public repository is a synthetic, rules-based expense demo, not the original Telegram/AI service; no investment advice is included.
+
 A Telegram assistant for recording income and expenses from text and images, then querying the history stored in Google Sheets.
 
 - LangGraph workflow for extraction, field validation, and transaction recording.
@@ -99,6 +107,10 @@ A Telegram assistant for recording income and expenses from text and images, the
 **Architecture focus:** combining deterministic rules and AI extraction in a practical data-entry workflow. This project is presented as expense tracking, not investment advice; any public examples should use synthetic financial data.
 
 ### AI Leisure Planner - Context-aware planning
+
+[Public repository](https://github.com/hsieihsuan1/lazer-bot-demo)
+
+The public repository is an offline synthetic planning demo, with no AI model, live weather/events, GPS, bookings or proactive messages.
 
 A Telegram assistant that collects location, companions, budget, and preferences to suggest activities, with separate plans for good weather and rain.
 
@@ -136,7 +148,7 @@ Atuo da arquitetura à implementação: definir o problema, escolher a abordagem
 
 ## Projetos selecionados
 
-O DataTalk, o ERP Support Extension e o JD Edwards Integration Suite têm repositórios públicos indicados abaixo. Os demais projetos continuam no meu portfólio privado, sem código público ou roteiros de demonstração vinculados aqui por enquanto.
+O DataTalk, o ERP Support Extension, o JD Edwards Integration Suite, o AI Solution Builder, o AI Financial Manager e o AI Leisure Planner têm repositórios públicos indicados abaixo. Os demais projetos continuam no meu portfólio privado, sem código público ou roteiros de demonstração vinculados aqui por enquanto.
 
 ### DataTalk - Analytics em linguagem natural para Oracle
 
@@ -180,6 +192,10 @@ O foco de arquitetura é expor capacidades do ERP por novas interfaces sem subst
 
 ### AI Solution Builder - Do problema de negócio ao blueprint
 
+[Repositório público](https://github.com/hsieihsuan1/ai-solution-builder)
+
+O repositório público é um MVP local de templates com dados sintéticos, sem modelo de IA, autenticação ou cobrança. A descrição completa abaixo se refere ao original privado.
+
 MVP que transforma requisitos de negócio e funcionais em artefatos editáveis: especificação técnica, abordagem de implementação, segurança, testes, planejamento de implantação, métricas e evolução. Inclui persistência em SQLite, projeto de exemplo e integração com Gemini ou provedor compatível com OpenAI.
 
 O foco é apoiar o início do desenho de soluções. Autenticação, billing e colaboração avançada estão fora do escopo do MVP.
@@ -188,6 +204,10 @@ O foco é apoiar o início do desenho de soluções. Autenticação, billing e c
 
 ### AI Financial Manager - Registro de despesas por conversa
 
+[Repositório público](https://github.com/hsieihsuan1/despesas-bot-demo)
+
+O repositório público é uma demo sintética de despesas baseada em regras, não o serviço original de Telegram/IA; não inclui aconselhamento de investimentos.
+
 Assistente no Telegram para registrar receitas e despesas a partir de texto e imagens, e consultar o histórico no Google Sheets. Combina regras configuráveis e classificação por IA, com validação de campos, rastreamento de chamadas e instrumentação de tokens/custos.
 
 O foco de arquitetura é automatizar entrada de dados com regras determinísticas e extração por IA. O caso é apresentado como controle de despesas, não aconselhamento de investimentos; exemplos públicos devem usar dados financeiros sintéticos.
@@ -195,6 +215,10 @@ O foco de arquitetura é automatizar entrada de dados com regras determinística
 **Stack:** Python, Gemini, LangGraph, Telegram, Google Sheets e LangSmith.
 
 ### AI Leisure Planner - Planejamento com contexto
+
+[Repositório público](https://github.com/hsieihsuan1/lazer-bot-demo)
+
+O repositório público é uma demo de planejamento offline com dados fictícios, sem modelo de IA, clima/eventos ao vivo, GPS, reservas ou mensagens proativas.
 
 Assistente no Telegram que coleta localização, companhia, orçamento e preferências para sugerir atividades, com planos para tempo bom e chuva. Inclui memória de preferências, contexto meteorológico, filtro por distância e sugestões agendadas.
 
