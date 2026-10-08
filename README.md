@@ -16,7 +16,7 @@ I work across architecture and implementation: defining the problem, choosing th
 
 ## Selected projects
 
-DataTalk and ERP Support Extension have public repositories linked below. The other projects remain part of my private portfolio, with no public code or demo walkthroughs linked here yet.
+DataTalk, ERP Support Extension and JD Edwards Integration Suite have public repositories linked below. The other projects remain part of my private portfolio, with no public code or demo walkthroughs linked here yet.
 
 ### DataTalk - Natural-language analytics for Oracle
 
@@ -59,6 +59,10 @@ A demo that combines JD Edwards data, Oracle Fusion financial records, and inter
 **Architecture focus:** bringing structured and unstructured enterprise data together, from ingestion to the user interface.
 
 ### JD Edwards Integration Suite - ERP through modern interfaces
+
+[Public repository](https://github.com/hsieihsuan1/jde-integration-suite)
+
+The public repository is a cleaned-up, mock-backed version of the IoT map and a stock-lookup command line tool. The Telegram and WhatsApp channels described below are not part of it.
 
 Two demonstrations built around JD Edwards Orchestrator: a multichannel stock-availability bot and an interactive IoT map for equipment movement and meter readings.
 
@@ -132,7 +136,7 @@ Atuo da arquitetura à implementação: definir o problema, escolher a abordagem
 
 ## Projetos selecionados
 
-O DataTalk e o ERP Support Extension têm repositórios públicos indicados abaixo. Os demais projetos continuam no meu portfólio privado, sem código público ou roteiros de demonstração vinculados aqui por enquanto.
+O DataTalk, o ERP Support Extension e o JD Edwards Integration Suite têm repositórios públicos indicados abaixo. Os demais projetos continuam no meu portfólio privado, sem código público ou roteiros de demonstração vinculados aqui por enquanto.
 
 ### DataTalk - Analytics em linguagem natural para Oracle
 
@@ -163,6 +167,10 @@ O foco de arquitetura é reunir dados estruturados e documentos corporativos, da
 **Stack:** Python, Oracle AIDP, Autonomous Database, OCI Object Storage, Terraform e Jupyter.
 
 ### JD Edwards Integration Suite - ERP por interfaces modernas
+
+[Repositório público](https://github.com/hsieihsuan1/jde-integration-suite)
+
+O repositório público é uma versão revisada, com dados mock, do mapa IoT e de uma ferramenta de consulta de estoque por linha de comando. Os canais Telegram e WhatsApp descritos abaixo não fazem parte dele.
 
 Duas demonstrações com JD Edwards Orchestrator: bot multicanal de consulta de estoque por Telegram e WhatsApp, e mapa interativo de IoT para movimentação de equipamentos e atualização de medidores. Os endpoints são descritos por contratos OpenAPI.
 
