@@ -16,7 +16,7 @@ I work across architecture and implementation: defining the problem, choosing th
 
 ## Selected projects
 
-DataTalk, ERP Support Extension, JD Edwards Integration Suite, AI Solution Builder, AI Financial Manager and AI Leisure Planner have public repositories linked below. The other projects remain part of my private portfolio, with no public code or demo walkthroughs linked here yet.
+DataTalk, ERP Support Extension, JD Edwards Integration Suite, AI Solution Builder, AI Financial Manager, AI Leisure Planner and Oracle AI Data Platform have public repositories linked below. The other projects remain part of my private portfolio, with no public code or demo walkthroughs linked here yet.
 
 ### DataTalk - Natural-language analytics for Oracle
 
@@ -47,6 +47,10 @@ A browser extension designed to bring first-level support into ERP screens, usin
 **Architecture focus:** connecting AI assistance to existing support workflows, with company-level data separation and escalation paths.
 
 ### Oracle AI Data Platform - ERP data and documents in one workspace
+
+[Public repository](https://github.com/hsieihsuan1/oracle-aidp-saas-demo)
+
+The public repository is a local, AIDP-inspired workspace with synthetic JDE/Fusion data, fixed SQL and invented policy citations. It runs no Oracle cloud services, Select AI, AI model or vector search; the description below refers to the private original.
 
 A demo that combines JD Edwards data, Oracle Fusion financial records, and internal documents for natural-language queries and semantic retrieval.
 
@@ -148,7 +152,7 @@ Atuo da arquitetura à implementação: definir o problema, escolher a abordagem
 
 ## Projetos selecionados
 
-O DataTalk, o ERP Support Extension, o JD Edwards Integration Suite, o AI Solution Builder, o AI Financial Manager e o AI Leisure Planner têm repositórios públicos indicados abaixo. Os demais projetos continuam no meu portfólio privado, sem código público ou roteiros de demonstração vinculados aqui por enquanto.
+O DataTalk, o ERP Support Extension, o JD Edwards Integration Suite, o AI Solution Builder, o AI Financial Manager, o AI Leisure Planner e o Oracle AI Data Platform têm repositórios públicos indicados abaixo. Os demais projetos continuam no meu portfólio privado, sem código público ou roteiros de demonstração vinculados aqui por enquanto.
 
 ### DataTalk - Analytics em linguagem natural para Oracle
 
@@ -171,6 +175,10 @@ O foco de arquitetura é integrar a assistência de IA ao fluxo de suporte exist
 **Stack:** JavaScript, Python, FastAPI, Gemini, Oracle Autonomous Database e RAG.
 
 ### Oracle AI Data Platform - Dados de ERP e documentos em um só workspace
+
+[Repositório público](https://github.com/hsieihsuan1/oracle-aidp-saas-demo)
+
+O repositório público é um workspace local inspirado em AIDP, com dados sintéticos de JDE/Fusion, SQL fixo e citações de políticas inventadas. Não executa serviços Oracle Cloud, Select AI, modelo de IA ou busca vetorial; a descrição abaixo se refere ao original privado.
 
 Demo que combina dados de JD Edwards, registros financeiros do Oracle Fusion e documentos internos para consultas em linguagem natural e busca semântica. Usa Select AI, Vector Search, dados mock e provisionamento com Terraform.
 
