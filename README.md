@@ -16,7 +16,7 @@ I work across architecture and implementation: defining the problem, choosing th
 
 ## Selected projects
 
-DataTalk has a public repository linked below. The other projects remain part of my private portfolio, with no public code or demo walkthroughs linked here yet.
+DataTalk and ERP Support Extension have public repositories linked below. The other projects remain part of my private portfolio, with no public code or demo walkthroughs linked here yet.
 
 ### DataTalk - Natural-language analytics for Oracle
 
@@ -33,6 +33,8 @@ A demo that lets business users ask questions about sales data and see SQL, resu
 **Architecture focus:** making structured enterprise data accessible while keeping query execution controlled. This is a demo, not a claim of production-grade SQL security.
 
 ### ERP Support Extension - AI support inside the application
+
+[Public repository](https://github.com/hsieihsuan1/erp-ai-support-copilot)
 
 A browser extension designed to bring first-level support into ERP screens, using application context and a document-based knowledge base.
 
@@ -130,7 +132,7 @@ Atuo da arquitetura à implementação: definir o problema, escolher a abordagem
 
 ## Projetos selecionados
 
-O DataTalk tem um repositório público indicado abaixo. Os demais projetos continuam no meu portfólio privado, sem código público ou roteiros de demonstração vinculados aqui por enquanto.
+O DataTalk e o ERP Support Extension têm repositórios públicos indicados abaixo. Os demais projetos continuam no meu portfólio privado, sem código público ou roteiros de demonstração vinculados aqui por enquanto.
 
 ### DataTalk - Analytics em linguagem natural para Oracle
 
@@ -143,6 +145,8 @@ O foco de arquitetura é facilitar o acesso a dados estruturados com validação
 **Stack:** Python, LangChain, Streamlit, Oracle Database, DuckDB e Plotly.
 
 ### ERP Support Extension - Suporte com IA dentro do ERP
+
+[Repositório público](https://github.com/hsieihsuan1/erp-ai-support-copilot)
 
 Extensão de navegador para oferecer suporte de primeiro nível no contexto de telas de Oracle Fusion, SAP e Workday. Usa RAG sobre documentação da empresa, backend em Oracle Autonomous Database e integração com ServiceNow/Jira para encaminhar casos ao suporte humano.
 
