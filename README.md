@@ -16,7 +16,7 @@ I work across architecture and implementation: defining the problem, choosing th
 
 ## Selected projects
 
-DataTalk, ERP Support Extension, JD Edwards Integration Suite, AI Solution Builder, AI Financial Manager, AI Leisure Planner and Oracle AI Data Platform have public repositories linked below. The other projects remain part of my private portfolio, with no public code or demo walkthroughs linked here yet.
+DataTalk, ERP Support Extension, JD Edwards Integration Suite, AI Solution Builder, AI Financial Manager, AI Leisure Planner, Oracle AI Data Platform and Agentic ERP Support Copilot have public repositories linked below. The other projects remain part of my private portfolio, with no public code or demo walkthroughs linked here yet.
 
 ### DataTalk - Natural-language analytics for Oracle
 
@@ -126,6 +126,22 @@ A Telegram assistant that collects location, companions, budget, and preferences
 
 **Architecture focus:** stateful conversations, external context, personalization, and scheduled interactions. This is a consumer application illustrating patterns that can also apply to enterprise assistants.
 
+### Agentic ERP Support Copilot - Tool-using support agent with human approval
+
+[Public repository](https://github.com/hsieihsuan1/agentic-erp-support-copilot)
+
+The public repository is a self-contained demo with synthetic data. It runs offline with a deterministic rule-based planner by default; the optional Gemini adapter scores 17-18 of 21 on its own eval suite in live runs, so it is not presented as production-ready.
+
+A support agent for ERP customers that looks up invoices, orders and tickets, answers policy questions from a knowledge base with citations, and escalates to a human when needed.
+
+- Six tools, BM25 retrieval with source citations, and human approval gates for credit memos.
+- Guardrails for prompt injection (direct and in tool output), PII redaction, and tenant isolation.
+- 21 behaviour evals, retrieval metrics, request tracing, and a CI gate (ruff, mypy, pytest).
+
+**Stack:** Python (standard library only), Gemini adapter, pytest, GitHub Actions.
+
+**Architecture focus:** making an agent's actions controllable and testable: approvals before side effects, guardrails around inputs and tool output, and evals that run in CI.
+
 ## Technical focus
 
 - **AI:** generative AI, LLM applications, RAG, LangChain, LangGraph, tool-using agents, NL2SQL.
@@ -152,7 +168,7 @@ Atuo da arquitetura à implementação: definir o problema, escolher a abordagem
 
 ## Projetos selecionados
 
-O DataTalk, o ERP Support Extension, o JD Edwards Integration Suite, o AI Solution Builder, o AI Financial Manager, o AI Leisure Planner e o Oracle AI Data Platform têm repositórios públicos indicados abaixo. Os demais projetos continuam no meu portfólio privado, sem código público ou roteiros de demonstração vinculados aqui por enquanto.
+O DataTalk, o ERP Support Extension, o JD Edwards Integration Suite, o AI Solution Builder, o AI Financial Manager, o AI Leisure Planner, o Oracle AI Data Platform e o Agentic ERP Support Copilot têm repositórios públicos indicados abaixo. Os demais projetos continuam no meu portfólio privado, sem código público ou roteiros de demonstração vinculados aqui por enquanto.
 
 ### DataTalk - Analytics em linguagem natural para Oracle
 
@@ -233,6 +249,18 @@ Assistente no Telegram que coleta localização, companhia, orçamento e prefer�
 O foco de arquitetura é demonstrar conversas com estado, contexto externo, personalização e interações agendadas. É uma aplicação de consumo com padrões que também podem ser usados em assistentes enterprise.
 
 **Stack:** Python, Gemini, LangGraph, Telegram, SQLite, geopy e APScheduler.
+
+### Agentic ERP Support Copilot - Agente de suporte com ferramentas e aprovação humana
+
+[Repositório público](https://github.com/hsieihsuan1/agentic-erp-support-copilot)
+
+O repositório público é uma demo autônoma com dados sintéticos. Por padrão roda offline com um planejador determinístico baseado em regras; o adaptador opcional do Gemini passa 17-18 de 21 casos da própria suíte de evals em execuções reais, e por isso não é apresentado como pronto para produção.
+
+Agente de suporte para clientes de ERP que consulta faturas, pedidos e tickets, responde dúvidas de política a partir de uma base de conhecimento com citações e escala para uma pessoa quando necessário. Tem seis ferramentas, recuperação BM25, aprovação humana para notas de crédito, guardrails (injeção de prompt direta e via saída de ferramenta, redação de PII e isolamento entre clientes), 21 evals de comportamento, rastreamento e gate de CI.
+
+O foco de arquitetura é tornar as ações do agente controláveis e testáveis: aprovação antes de efeitos colaterais, guardrails e evals executados no CI.
+
+**Stack:** Python (somente biblioteca padrão), adaptador Gemini, pytest e GitHub Actions.
 
 ## Foco técnico
 
